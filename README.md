@@ -21,4 +21,3 @@ Note: The sorting will simulate a server side sorting, meaning that it will sort
 
 4) Load more
 Clicking on `Load more` will display the rest of the items.
->>>>>>> Add files to repo
