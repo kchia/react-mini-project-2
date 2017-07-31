@@ -1,0 +1,138 @@
+html {
+  font-family: 'Arial';
+}
+
+.main {
+  background-color: #009CDE;
+  width: 320px;
+  height: 568px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.main table {
+  border-collapse: collapse;
+}
+
+.accounts-table {
+  background-color: #f6f6f6;
+  margin: 0 auto;
+  width: 97%;
+}
+
+.accounts-table th {
+  border-bottom: 1px solid #bdbdbd;
+  border-right: 1px solid #f6f6f6;
+}
+
+.accounts-table td {
+  border-bottom: 1px solid lightgrey;
+}
+
+.accounts-table .load-more {
+  text-align: center;
+  height: 54px;
+}
+
+.accounts-table .load-more button {
+  color: #009CDE;
+  font-size: 14px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px;
+  outline: none;
+}
+
+.row-account, .row-cash {
+  padding: 10px;
+}
+
+.row-account {
+  font-size: 16px;
+  color: #009CDE;
+  font-weight: 700;
+}
+
+.col-account-title, .col-cash-title {
+  font-weight: 300;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.col-account-title {
+  text-align: left;
+  vertical-align: bottom;
+  background-color: #d7d7d7;
+  color: #3f3f3f;
+}
+
+.col-cash-title {
+  background-color: #f6f6f6;
+  color: #3f3f3f;
+}
+
+.col-cash-title h4 {
+  text-align: right;
+  margin:0; 
+  font-size:100%;
+  line-height:1.2;
+  font-weight: 300;
+}
+
+.col-cash-title .todays-change {
+  color: #7e7e7e;
+}
+
+.col-cash-title .available-cash {
+  display:inline-block;  
+  float: right;
+}
+
+.row-account {
+  text-align: left;
+}
+
+.row-cash {
+  text-align: right;
+}
+
+.row-cash p {
+  margin:0; 
+  font-size:100%;
+  line-height:1.2;
+  padding: 0;
+}
+
+.row-cash .row-cash-change {
+  font-size: 12px;
+}
+
+.row-cash .row-cash-negative {
+  color: red;
+}
+
+.row-cash .row-cash-negative::before {
+  content: '-';
+}
+
+.row-cash .row-cash-positive {
+  color: green;
+}
+
+.row-cash .row-cash-positive::before {
+  content: '+';
+}
+.row-cash .row-cash-no-change {
+  color: grey;
+}
+
+.accounts-angle-arrow, .cash-angle-arrow {
+  color: #009CDE;
+  margin-left: 4px;
+  font-weight: bold;
+}
+
+.cash-angle-arrow {
+  margin-right: -60px;
+}
