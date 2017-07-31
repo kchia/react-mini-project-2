@@ -1,4 +1,4 @@
-# react-mini-project-2
+# react-mini-project-2 (SEE COMPLETED PROJECT AT https://jsfiddle.net/kchia/v6ku31ed/)
 In this exercise, you will build a page in JSFiddle (https://jsfiddle.net/) or CodePen (https://codepen.io/), based on the attached images using JS, HTML, and CSS.
 
 - You may use any JS framework of your choosing (Angular, React, etc.), or use none at all.
