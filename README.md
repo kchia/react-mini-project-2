@@ -13,9 +13,9 @@ In this exercise, you will build a page in JSFiddle (https://jsfiddle.net/) or C
 3) Sorting
 Clicking on the “Account” table header will sort the items by the account’s number (i.e. “IRA – 0123” is smaller than “AAA – 5920” because “0123” is smaller than “5920”).
 Clicking on the “Available Cash” table header will sort the items by it available cash amount.
-1. Ifthefieldisnotyetsorted,itshouldbesortedascending.
-2. Ifthefieldissortedascending,itshouldbesorteddescending.
-3. Ifthefieldissorteddescending,itshouldbesortedascending.
+1. If the field is not yet sorted,it should be sorted ascending.
+2. If the field is sorted ascending,it should be sorted descending.
+3. If the field is sorted descending,it should be sorted ascending.
 Next to the sorted field there will be a `^` character if ascending, `v` if descending.
 Note: The sorting will simulate a server side sorting, meaning that it will sort the whole list, including the hidden items (see next item).
 
